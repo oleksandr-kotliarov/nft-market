@@ -4,7 +4,9 @@
 
   overflow: hidden;
 
-  transition: box-shadow 0.4s, max-height 1s;
+  transition: box-shadow 0.4s, max-height 1s, filter 0.4s;
+
+  background-color: #0D0D0D;
 }
 
 .nft-list--default-shadow {
@@ -19,16 +21,22 @@
   transition: box-shadow 0.4s, max-height 1s;
 }
 
-.nft-list--silver {
-  filter: drop-shadow(6px 6px 24px rgba(0, 0, 0, 0.27));
-}
-
-.nft-list--silver-open {
+.nft-list--open.nft-list--silver {
   box-shadow: none;
   box-shadow: 0px 0px 24px rgba(237, 237, 237, 0.7);
 }
 
-.nft-list--silver-open .nft-list--default-shadow {
+.nft-list--open.nft-list--gold {
+  box-shadow: none;
+  filter: drop-shadow(0px 0px 24px rgba(255, 206, 0, 0.4));
+}
+
+.nft-list--open.nft-list--platinum {
+  box-shadow: none;
+  box-shadow: 0px 0px 24px rgba(0, 8, 38, 0.7);
+}
+
+.nft-list--open .nft-list--default-shadow {
   box-shadow: none;
 }
 
