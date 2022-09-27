@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+  <html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/index.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">What is NFT?</h1>
+        <p class="header__description">
+          Non-fungible tokens, often referred to as NFTs, are blockchain-based tokens that each represent a unique asset like a piece of art, digital content, or media.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="info">
+        <article class="info__block">
+          <img src="./images/background-1.jpg" alt="futural image" class="info__background">
+          <div class="info__dark-effect"></div>
+          <div class="info__container info__container--big-margin">
+            <h2 class="info__title">
+              FOR music connoisseurs and collectors of contemporary art
+            </h2>
+            <ul class="info__list">
+              <li class="info__item">
+                Protected digital asset to invest in.
+              </li>
+              <li class="info__item">
+                NFTs allow for the support of authoring projects and the development of a crypto-art community.
+              </li>
+              <li class="info__item">
+                Digital asset that greatly appreciates over time.
+              </li>
+            </ul>
+          </div>
+        </article>
+  
+        <article class="info__block">
+          <img src="./images/background-2.jpg" alt="futural image" class="info__background">
+          <div class="info__dark-effect"></div>
+          <div class="info__container">
+            <h2 class="info__title">
+              FOR brands
+            </h2>
+            <ul class="info__list">
+              <li class="info__item">
+                Trendy way of communication with audience.
+              </li>
+              <li class="info__item">
+                Unique brand experiences that inspires engagement.
+              </li>
+              <li class="info__item">
+                Efficient digital assets to invest in.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <div class="container">
+          <section class="nft-list nft-list--silver">
+            <div class="nft-list--default-shadow">
+              <h1 class="nft-list__title">Silver NFT</h1>
+              <h2 class="nft-list__amount">
+                Available for purchase: <span id="silver-nft-amount">100</span> NFT
+              </h2>
+              <div class="nft-list__checkbox checkbox">
+                <div class="checkbox__label"></div>
+                <div class="nft-list__label">Show sold posters</div>
+              </div>
+              <img src="./images/arrow-down.svg" alt="arrow" class="nft-list__arrow">
+              <img src="./images/cross.svg" alt="cross" class="nft-list__cross">
+              <div class="nft-list__content"></div>
+            </div>
+          </section>
+      </div>
+
+      <section class="buy-form">
+        <img src="./images/small-cross.svg" alt="cross" class="buy-form__cross">
+        <h1 class="buy-form__title">Ready to purchase?</h1>
+        <p class="buy-form__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt quam convallis a lacus consequat, ultrices.
+        </p>
+
+        <form class="buy-form__form">
+          <input type="text" class="buy-form__input" placeholder="First Name" required>
+          <input type="text"  class="buy-form__input" placeholder="Last Name" required> 
+          <input type="email" class="buy-form__input" placeholder="Email@gmail.com" required>
+          <input type="tel" class="buy-form__input" placeholder="+48 328 4870 09 27" required>
+
+          <div class="buy-form__card-icons">
+            <img src="./images/maestro.png" alt="maestro">
+            <img src="./images/visa.png" alt="visa">
+          </div>
+
+          <button class="buy-button buy-form__button">
+            Buy NFT
+          </button>
+        </form>
+      </section>
+
+      <section class="thanks-window">
+        <h1 class="thanks-window__title">Thanks!</h1>
+        <p class="thanks-window__description">
+          The purchase of <span class="thanks-window__nft-name">Silver NFT Alexey Botvinov</span> has been successfully completed.
+        </p>
+        <button class="thanks-window__button">
+          OK
+        </button>
+      </section>
+    </main>
+
+    <div class="page__dark-background"></div>
+  </body>
+</html>

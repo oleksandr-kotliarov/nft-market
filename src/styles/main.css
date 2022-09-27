@@ -1,0 +1,14 @@
+@import './utils/_fonts.css';
+@import './utils/_reset.css';
+
+@import './components/checkbox.css';
+@import './components/nft-card.css';
+@import './components/buy-button.css';
+
+@import './blocks/container.css';
+@import './blocks/page.css';
+@import './blocks/header.css';
+@import './blocks/info.css';
+@import './blocks/nft-list.css';
+@import './blocks/buy-form.css';
+@import './blocks/thanks-window.css';
